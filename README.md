@@ -10,13 +10,13 @@ This repository provides pre-configured rules and prompts that teach AI coding a
 
 ```bash
 # For Claude Desktop
-cp .claude/agents/synta-mcp-agent.md.md ~/.claude/agents/
+cp .claude/agents/synta-mcp-agent.md ~/.claude/agents/
 
 # For Claude Code
-cp .claude-code/prompts/synta-mcp-agent.md.md ~/.claude-code/prompts/
+cp .claude-code/prompts/synta-mcp-agent.md ~/.claude-code/prompts/
 
 # For Cursor  
-cp .cursor/rules/synta-mcp-agent.md.mdc ~/.cursor/rules/
+cp .cursor/rules/synta-mcp-agent.mdc ~/.cursor/rules/
 
 # For other agents, follow similar pattern
 ```

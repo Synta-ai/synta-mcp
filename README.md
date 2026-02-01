@@ -46,4 +46,4 @@ Your agent now becomes an N8N workflow specialist that can:
 
 ---
 
-*Making N8N workflow automation accessible to AI agents*
+*Brought by Synta*

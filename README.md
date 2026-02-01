@@ -18,11 +18,11 @@ cp .claude-code/prompts/synta-mcp-agent.md ~/.claude-code/prompts/
 # For Cursor  
 cp .cursor/rules/synta-mcp-agent.mdc ~/.cursor/rules/
 
-# For other agents, follow similar pattern
+# For other AI clients, check the [MCP Docs](https://mcp-docs.synta.io) for setup instructions.
 ```
 
 ### 2. Enable Synta MCP
-Ensure your agent has access to Synta's MCP tools. See [synta.io](https://synta.io) for setup instructions.
+Ensure your agent has access to Synta's MCP tools. See the [MCP Docs](https://mcp-docs.synta.io) for setup instructions.
 
 ### 3. Start Building N8N Workflows
 Your agent now becomes an N8N workflow specialist that can:

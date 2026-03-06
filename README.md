@@ -13,10 +13,10 @@ This repository provides pre-configured rules and prompts that teach AI coding a
 cp .claude/agents/synta-mcp-agent.md ~/.claude/agents/
 
 # For Claude Code
-cp .claude-code/prompts/synta-mcp-agent.md ~/.claude-code/prompts/
+cp .claude/agents/synta-mcp-agent.md ~/.claude-code/prompts/
 
 # For Cursor  
-cp .cursor/rules/synta-mcp-agent.mdc ~/.cursor/rules/
+cp .cursor/synta-mcp-agent.mdc ~/.cursor/rules/
 
 # For other AI clients, check the [MCP Docs](https://mcp-docs.synta.io) for setup instructions.
 ```

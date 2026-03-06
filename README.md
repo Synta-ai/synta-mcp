@@ -1,43 +1,38 @@
 # Synta Agent Configuration Rules
-Open-source configuration files for Synta to turn any AI assistant into an N8N expert.
+Open-source configuration files for Synta to turn any AI assistant into an n8n expert.
 
 ## What This Does
-This repository provides pre-configured rules and prompts that teach AI coding agents how to effectively use Synta MCP for N8N workflow automation.
+This repository provides pre-configured rules and prompts that teach AI coding agents how to effectively use Synta MCP for n8n workflow automation.
 
 ## Quick Setup
 
 ### 1. Copy Configuration
 
-```bash
-# For Claude Code
-cp .claude/agents/nia.md ~/.claude/agents/
+**Setup by client** (step-by-step at [Rules & Agent Instructions](https://mcp-docs.synta.io/rules)):
 
-# For Claude Code
-cp .claude/agents/synta.md ~/.claude-code/prompts/
+| Client | Setup |
+|--------|-------|
+| Cursor | [Setup →](https://mcp-docs.synta.io/rules#cursor) |
+| Claude Code | [Setup →](https://mcp-docs.synta.io/rules#claude-code) |
+| Claude Desktop & Claude.ai | [Setup →](https://mcp-docs.synta.io/rules#claude-desktop-%26-claude-ai) |
+| ChatGPT | [Setup →](https://mcp-docs.synta.io/rules#chatgpt) |
+| Codex | [Setup →](https://mcp-docs.synta.io/rules#codex) |
+| Google Antigravity | [Setup →](https://mcp-docs.synta.io/rules#google-antigravity) |
+| OpenCode | [Setup →](https://mcp-docs.synta.io/rules#opencode) |
 
-# For Cursor
-cp .cursor/rules/synta.mdc ~/.cursor/rules/
-
-# For Codex: 
-copy .codex/skills/SKILL.MD into your project
-
-    
-# For ChatGPT: use .chatgpt/chatgpt-project-instructions.md in Project instructions
-# For Google Antigravity: use .antigravity/agents/workflows/synta.md in Workspace rules
-# For other AI clients, check the [MCP Docs](https://mcp-docs.synta.io) for setup instructions.
-```
+Or copy files manually from this repo (see the paths in the links above).
 
 ### 2. Enable Synta MCP
 Ensure your agent has access to Synta's MCP tools. See the [MCP Docs](https://mcp-docs.synta.io) for setup instructions.
 
-### 3. Start Building N8N Workflows
-Your agent now becomes an N8N workflow specialist that can:
+### 3. Start Building n8n Workflows
+Your agent now becomes an n8n workflow specialist that can:
 
-- Search and discover 1000+ N8N nodes with intelligent search
+- Search and discover 1000+ n8n nodes with intelligent search
 - Build workflows with expert-level node configurations
 - Validate and debug workflows with real-time error checking
 - Access 10,000+ curated workflow templates
-- Manage workflows directly in your N8N instance
+- Manage workflows directly in your n8n instance
 - Execute and monitor workflow runs
 
 ## 🤝 Contributing

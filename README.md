@@ -6,6 +6,9 @@ This repository provides pre-configured rules and prompts that teach AI coding a
 
 ## Quick Setup
 
+### 1. Enable Synta MCP
+Ensure your agent has access to Synta's MCP tools. See the [MCP Docs](https://mcp-docs.synta.io) for setup instructions.
+
 ### 1. Copy Configuration
 
 **Setup by client** (step-by-step at [Rules & Agent Instructions](https://mcp-docs.synta.io/rules)):
@@ -21,9 +24,6 @@ This repository provides pre-configured rules and prompts that teach AI coding a
 | OpenCode | [Setup →](https://mcp-docs.synta.io/rules#opencode) |
 
 Or copy files manually from this repo (see the paths in the links above).
-
-### 2. Enable Synta MCP
-Ensure your agent has access to Synta's MCP tools. See the [MCP Docs](https://mcp-docs.synta.io) for setup instructions.
 
 ### 3. Start Building n8n Workflows
 Your agent now becomes an n8n workflow specialist that can:
